@@ -234,3 +234,39 @@ const noww = setInterval(function () {
 }, 1000);
 // clearInterval() method stops the executions of the function specified in the setInterval() method.
 clearInterval(noww);
+--------------------------------------------------------------------------The Last Ride--------------------------------------------------------------------------------------------------
+  Mutable Array Methods
+These methods directly modify the original array.
+
+push()
+Adds one or more elements to the end of an array.
+Returns the new length of the array.
+  
+pop()
+Removes the last element from an array.
+Returns the removed element.
+  
+shift()
+Removes the first element from an array.
+Returns the removed element.
+  
+unshift()
+Adds one or more elements to the beginning of an array.
+Returns the new length of the array.
+  
+splice()
+The splice() method has the syntax:
+array.splice(startIndex, deleteCount, ...itemsToAdd);
+startIndex: The index where the operation begins.
+deleteCount: The number of elements to remove starting from startIndex. If this is 0 or negative, no elements are removed.
+itemsToAdd (optional): Any elements you want to add to the array.
+Adds/removes/replaces elements in the middle of an array.
+Returns the removed elements.
+  
+sort()
+Sorts the elements of an array in place.
+Returns the sorted array.
+  
+reverse()
+Reverses the elements of an array in place.
+Returns the reversed array.
